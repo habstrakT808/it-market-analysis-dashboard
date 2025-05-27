@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-05-27 05:45:02",
+  "job_dataset": {
+    "total_records": 752,
+    "total_columns": 21,
+    "missing_values": 12,
+    "columns": [
+      "job_id",
+      "title",
+      "company",
+      "location",
+      "industry",
+      "salary_min",
+      "salary_max",
+      "experience_level",
+      "experience_years_min",
+      "experience_years_max",
+      "company_size",
+      "employment_type",
+      "remote_option",
+      "required_skills",
+      "posted_date",
+      "application_deadline",
+      "source",
+      "data_collection_date",
+      "dataset_version",
+      "salary_avg",
+      "salary_category"
+    ]
+  },
+  "tech_dataset": {
+    "total_records": 2754,
+    "total_columns": 6,
+    "missing_values": 0,
+    "unique_technologies": 24
+  },
+  "summary": {
+    "avg_salary": 12789893.617021276,
+    "salary_range": {
+      "min": 3200000.0,
+      "max": 35800000.0
+    },
+    "top_locations": {
+      "Jakarta": 57,
+      "Remote": 56,
+      "Solo": 53,
+      "Bandung": 53,
+      "Batam": 53
+    },
+    "experience_levels": {
+      "Junior": 302,
+      "Mid": 298,
+      "Senior": 152
+    }
+  }
+}

@@ -1,0 +1,10 @@
+cat > requirements.txt << 'EOF'
+streamlit==1.28.1
+pandas==2.0.3
+plotly==5.17.0
+beautifulsoup4==4.12.2
+requests==2.31.0
+seaborn==0.12.2
+matplotlib==3.7.2
+numpy==1.24.3
+EOF
