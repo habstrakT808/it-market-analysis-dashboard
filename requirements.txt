@@ -1,12 +1,8 @@
-# Navigate to your project directory
-cd /e/Project/it_market_dashboard
-
-# Create clean requirements.txt
-echo "streamlit
+streamlit
 pandas
 plotly
 numpy
-requests" > requirements.txt
-
-# Verify content
-cat requirements.txt
+requests
+beautifulsoup4
+matplotlib
+seaborn

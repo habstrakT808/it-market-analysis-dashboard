@@ -1,5 +1,3 @@
-# Create proper app.py
-cat > app.py << 'EOF'
 import streamlit as st
 import sys
 import os
@@ -13,8 +11,8 @@ try:
     main()
 except ImportError as e:
     st.error(f"Error importing dashboard: {e}")
+    st.error("Please check if dashboard_fixed.py exists in src/ directory")
     st.stop()
 except Exception as e:
     st.error(f"Error running dashboard: {e}")
     st.stop()
-EOF
